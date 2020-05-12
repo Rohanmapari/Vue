@@ -1,6 +1,6 @@
 <template>
   <div id="hello-world">
-    
+   
   </div>
 </template>
 
@@ -13,18 +13,11 @@
   methods: {
           alertme(){
               this.$emit('add:myvalue', this.myvalue)
-
-
           }
-
-
   }
-			
-			
-			
-
   }
 
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
